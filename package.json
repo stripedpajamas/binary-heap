@@ -1,0 +1,17 @@
+{
+  "name": "binary-heap",
+  "version": "1.0.0",
+  "description": "a small binary heap class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "binary",
+    "heap",
+    "max",
+    "min"
+  ],
+  "author": "Peter Squicciarini <stripedpajamas273@gmail.com>",
+  "license": "MIT"
+}
