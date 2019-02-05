@@ -1,4 +1,4 @@
-const BinaryHeap = require('.')
+const { BinaryHeap, sort } = require('.')
 
 /**
  * examples of using a binary heap
@@ -51,3 +51,8 @@ heap2.insert([1, 5, 4, 3, 2])
 for (let node of heap2.getTop()) {
   console.log(node) // 1, 2, 3, 4, 5
 }
+
+// sorting
+const arr = [1, 5, 3, 2, 4]
+sort(arr, { inplace: true, min: true })
+console.log(arr) // 1, 2, 3, 4, 5

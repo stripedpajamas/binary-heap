@@ -44,6 +44,13 @@ see `example.js` for examples
     console.log(node) // { key, val }
   }
   ```
+- includes a sort function which takes in an array of values and heapsorts
+  ```javascript
+  const arr = [1, 5, 3, 2, 4]
+  // options are passed to heap constructor
+  sort(arr, { inplace: true, min: true })
+  console.log(arr) // 1, 2, 3, 4, 5
+  ```
 
 ## License 
 MIT
